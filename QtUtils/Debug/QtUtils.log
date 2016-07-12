@@ -1,0 +1,80 @@
+﻿生成启动时间为 7/12/2016 10:21:49 PM。
+     1>项目“C:\_CPPProject\QtUtils\QtUtils\QtUtils.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing DirUtil.h...
+         Moc'ing CustomToolButton.h...
+         Moc'ing CustomWidget.h...
+         Moc'ing ExpandToolButton.h...
+         Moc'ing ClickableLabel.h...
+         Rcc'ing Resources\style.qrc...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.7.0\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtCore /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtGui /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtSql /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtUiTools /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtWidgets /I.\Settings /I.\TaskBarProcess /I.\QssUtil /I.\ApplicationPanel /I.\MessageHandler /I.\WindowsPathUtil /I.\DirUtil /I.\FileUtil /I.\ClickableLabel /I.\CustomControllers\ExpandToolButton /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_UITOOLS_LIB /D QT_WIDGETS_LIB /D QTUTILS_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ApplicationPanel\ApplicationPanel.cpp CustomControllers\ClickableLabel\ClickableLabel.cpp CustomControllers\CustomToolButton\CustomToolButton.cpp CustomControllers\CustomWidget\CustomWidget.cpp CustomControllers\ExpandToolButton\ExpandToolButton.cpp DirUtil\DirUtil.cpp FileUtil\FileUtil.cpp GeneratedFiles\Debug\moc_ClickableLabel.cpp GeneratedFiles\Debug\moc_CustomToolButton.cpp GeneratedFiles\Debug\moc_CustomWidget.cpp GeneratedFiles\Debug\moc_DirUtil.cpp GeneratedFiles\Debug\moc_ExpandToolButton.cpp ImageSplitter\ImageSplitter.cpp MessageHandler\MessagePattern.cpp MessageHandler\MessagePattern.h QssUtil\QssUtil.cpp QtUtils.cpp Settings\Settings.cpp TaskBarProgress\TaskBarProgress.cpp WindowsPathUtil\WindowsPathUtil.cpp
+         ApplicationPanel.cpp
+         ClickableLabel.cpp
+         CustomToolButton.cpp
+         CustomWidget.cpp
+         ExpandToolButton.cpp
+         DirUtil.cpp
+         FileUtil.cpp
+         moc_ClickableLabel.cpp
+         moc_CustomToolButton.cpp
+         moc_CustomWidget.cpp
+         moc_DirUtil.cpp
+         moc_ExpandToolButton.cpp
+         ImageSplitter.cpp
+         MessagePattern.cpp
+         MessagePattern.h
+         QssUtil.cpp
+         QtUtils.cpp
+         Settings.cpp
+         TaskBarProgress.cpp
+         WindowsPathUtil.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.7.0\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtCore /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtGui /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtSql /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtUiTools /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtWidgets /I.\Settings /I.\TaskBarProcess /I.\QssUtil /I.\ApplicationPanel /I.\MessageHandler /I.\WindowsPathUtil /I.\DirUtil /I.\FileUtil /I.\ClickableLabel /I.\CustomControllers\ExpandToolButton /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_UITOOLS_LIB /D QT_WIDGETS_LIB /D QTUTILS_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_style.cpp
+         qrc_style.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\\QtUtils.dll" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.0\5.7\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5UiToolsd.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\QtUtils.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\QtUtils.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ApplicationPanel.obj
+         Debug\ClickableLabel.obj
+         Debug\CustomToolButton.obj
+         Debug\CustomWidget.obj
+         Debug\ExpandToolButton.obj
+         Debug\DirUtil.obj
+         Debug\FileUtil.obj
+         Debug\moc_ClickableLabel.obj
+         Debug\moc_CustomToolButton.obj
+         Debug\moc_CustomWidget.obj
+         Debug\moc_DirUtil.obj
+         Debug\moc_ExpandToolButton.obj
+         Debug\qrc_style.obj
+         Debug\ImageSplitter.obj
+         Debug\MessagePattern.obj
+         Debug\MessagePattern.obj
+         Debug\QssUtil.obj
+         Debug\QtUtils.obj
+         Debug\Settings.obj
+         Debug\TaskBarProgress.obj
+         Debug\WindowsPathUtil.obj
+     1>Debug\MessagePattern.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+            正在创建库 C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\QtUtils.lib 和对象 C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\QtUtils.exp
+         QtUtils.vcxproj -> C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\QtUtils.dll
+       PostBuildEvent:
+         @echo copy dlls to bin
+         if x86==x64 (
+         if exist C:\_CPPProject\QtUtils\Win32\Debug\ (
+         xcopy "C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\*.dll" "C:\_CPPProject\QtUtils\Win32\Debug\" /y 
+         )
+         )
+         if x86==x86 (
+         if exist C:\_CPPProject\QtUtils\Win32\Debug\  (
+         xcopy "C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\*.dll" "C:\_CPPProject\QtUtils\Win32\Debug\" /y 
+         )
+         )
+         :VCEnd
+         copy dlls to bin
+         C:\_CPPProject\QtUtils\build\QtUtils\Win32\Debug\QtUtils.dll
+         1 File(s) copied
+     1>已完成生成项目“C:\_CPPProject\QtUtils\QtUtils\QtUtils.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.23

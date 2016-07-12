@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{a3cda572-0eb3-4402-babe-007255629c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileUtil">
+      <UniqueIdentifier>{3a8b9852-7141-4196-921a-b8d188672904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QssUtil">
+      <UniqueIdentifier>{7cbea817-079d-41b8-b8ac-9bfb3bf9aa60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DarkStyle">
+      <UniqueIdentifier>{4b1e4be5-bd5f-463e-b719-c7fbbe9b8e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DarkStyle\rc">
+      <UniqueIdentifier>{64ff3c33-5c0b-44ce-a1a6-3673d06eebe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MessageHandler">
+      <UniqueIdentifier>{ee1dfe06-9920-4190-8b6a-212b04b4c0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClickableLabel">
+      <UniqueIdentifier>{7d909028-3a36-4f46-886c-ba39027aea35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{264965ed-adab-4a05-84b9-28fc379b0242}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{74493e76-1e7f-4171-ab2b-4750e4a24fcd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="WindowsPathUtil">
+      <UniqueIdentifier>{6d9f4820-c0c1-470c-baa6-2e181f7594ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="DirUtil">
+      <UniqueIdentifier>{06d3bf9b-4812-40c2-847d-0f9bac78fe64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{771f3300-d5f1-4311-9b32-b387f3c56733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskBarProgress">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Settings\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil\FileUtil.cpp">
+      <Filter>FileUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="QssUtil\QssUtil.cpp">
+      <Filter>QssUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_style.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler\MessagePattern.h">
+      <Filter>MessageHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ClickableLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ClickableLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationPanel\ApplicationPanel.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="QtUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsPathUtil\WindowsPathUtil.cpp">
+      <Filter>WindowsPathUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="DirUtil\DirUtil.cpp">
+      <Filter>DirUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DirUtil.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DirUtil.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskBarProgress\TaskBarProgress.cpp">
+      <Filter>TaskBarProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler\MessagePattern.cpp">
+      <Filter>MessageHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSplitter\ImageSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomControllers\ClickableLabel\ClickableLabel.cpp">
+      <Filter>ClickableLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomControllers\CustomToolButton\CustomToolButton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomToolButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomToolButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomControllers\CustomWidget\CustomWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomControllers\ExpandToolButton\ExpandToolButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExpandToolButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExpandToolButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil\FileUtil.h">
+      <Filter>FileUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="QssUtil\QssUtil.h">
+      <Filter>QssUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler\MessageHandler.h">
+      <Filter>MessageHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="qtutils_global.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationPanel\ApplicationPanel.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="QtUtils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsPathUtil\WindowsPathUtil.h">
+      <Filter>WindowsPathUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskBarProgress\TaskBarProgress.h">
+      <Filter>TaskBarProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSplitter\ImageSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\rc\branch_closed.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\branch_closed-on.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\branch_open.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\branch_open-on.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_checked.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_checked_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_checked_focus.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_indeterminate.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_indeterminate_focus.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_unchecked.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_unchecked_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\checkbox_unchecked_focus.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\close.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\close-hover.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\close-pressed.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\down_arrow.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\down_arrow_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\Hmovetoolbar.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\Hsepartoolbar.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\left_arrow.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\left_arrow_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\radio_checked.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\radio_checked_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\radio_checked_focus.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\radio_unchecked.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\radio_unchecked_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\radio_unchecked_focus.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\right_arrow.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\right_arrow_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\sizegrip.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\stylesheet-branch-end.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\stylesheet-branch-more.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\stylesheet-vline.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\transparent.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\undock.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\up_arrow.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\up_arrow_disabled.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\Vmovetoolbar.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+    <Image Include="Resources\rc\Vsepartoolbar.png">
+      <Filter>Resource Files\DarkStyle\rc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\style.qss">
+      <Filter>Resource Files\DarkStyle</Filter>
+    </None>
+    <None Include="Resources\khaki.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\transparent.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\application.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\black.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\coffee.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\default.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\evilworks.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resources\style.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DirUtil\DirUtil.h">
+      <Filter>DirUtil</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomControllers\ClickableLabel\ClickableLabel.h">
+      <Filter>ClickableLabel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomControllers\CustomToolButton\CustomToolButton.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomControllers\CustomWidget\CustomWidget.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomControllers\ExpandToolButton\ExpandToolButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
